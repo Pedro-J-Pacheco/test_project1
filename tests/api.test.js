@@ -8,6 +8,6 @@ describe ('fecthdata',()=>{
         //Assert
         expect(data).toEqual({id:1,product:"A"})
         expect(fetchData).toHaveBeenCalled();
-
+//test 
     });
 });
