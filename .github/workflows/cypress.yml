@@ -19,7 +19,7 @@ jobs:
         uses: cypress-io/github-action@v6
 
         with:
-          build: npmvrun build
+          build: npm run build
           start: npm start
           wait-on: 'http://localhost:3000'
           runTests : true 
